@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fc4f861-9e73-48d0-8c84-6f62c885b01a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/commons/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons_bean/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons_rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons_redis/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons_utils/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons_zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/target/" />
+    <ignored path="$PROJECT_DIR$/syspermissionmd/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/target/" />
+    <ignored path="$PROJECT_DIR$/activitimd/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/target/" />
+    <ignored path="$PROJECT_DIR$/wxpaymd/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/registerController/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/registerdao/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/registerdto/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/registermapper/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/registerpojo/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/registerservice/target/" />
+    <ignored path="$PROJECT_DIR$/registermd/registerserviceimpl/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons_swagger2/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogController/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogpojo/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogservice/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogdao/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogmapper/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogserviceimpl/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogannotation/target/" />
+    <ignored path="$PROJECT_DIR$/weboplogmd/weblogaspect/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/sysuserController/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/sysuserdao/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/sysuserdto/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/sysusermapper/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/sysuserpojo/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/sysuserservice/target/" />
+    <ignored path="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/productcontroller/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/productdao/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/productdto/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/productmapper/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/productpojo/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/productservice/target/" />
+    <ignored path="$PROJECT_DIR$/productmd/productserviceimpl/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/orderincontroller/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/orderindao/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/orderindto/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/orderinmapper/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/orderinpojo/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/orderinservice/target/" />
+    <ignored path="$PROJECT_DIR$/orderinmd/orderinserviceimpl/target/" />
+    <ignored path="$PROJECT_DIR$/airticketmd/target/" />
+    <ignored path="$PROJECT_DIR$/hotelmd/target/" />
+    <ignored path="$PROJECT_DIR$/purchasemd/target/" />
+    <ignored path="$PROJECT_DIR$/smsmd/target/" />
+    <ignored path="$PROJECT_DIR$/walletmd/target/" />
+    <ignored path="$PROJECT_DIR$/planningmd/target/" />
+    <ignored path="$PROJECT_DIR$/strategymd/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="springmvc-config" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/SysAndRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/SysAndRoleMapper.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/SysAndRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/AuthorityInfoService.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/AuthorityInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/AuthorityInfoMapper.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/AuthorityInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/RoleAndAuthMapper.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleAndAuthMapper.xml" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/RoleAndAuthService.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/RoleAndAuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/orderinmd/orderinserviceimpl/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/productmd/productcontroller/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/orderinmd/orderincontroller/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProTypeDTO.java" />
+        <option value="$PROJECT_DIR$/productmd/productcontroller/pom.xml" />
+        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProBaseDTO.java" />
+        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProductDTO.java" />
+        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProSpecialDTO.java" />
+        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProSpecialDTO1.java" />
+        <option value="$PROJECT_DIR$/productmd/productservice/src/main/java/com/business/product/service/ProTypeService.java" />
+        <option value="$PROJECT_DIR$/productmd/productserviceimpl/src/main/java/com/business/product/service/impl/ProTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/productmd/productdao/src/main/java/com/business/product/dao/ProTypeMapper.java" />
+        <option value="$PROJECT_DIR$/productmd/productmapper/src/main/java/com/business/product/mapper/ProTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/productmd/productdao/src/main/java/com/business/product/dao/ProSpecialMapper.java" />
+        <option value="$PROJECT_DIR$/productmd/productmapper/src/main/java/com/business/product/mapper/ProSpecialMapper.xml" />
+        <option value="$PROJECT_DIR$/productmd/productservice/src/main/java/com/business/product/service/ProBaseService.java" />
+        <option value="$PROJECT_DIR$/productmd/productserviceimpl/src/main/java/com/business/product/service/impl/ProBaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/productmd/productdao/src/main/java/com/business/product/dao/ProBaseMapper.java" />
+        <option value="$PROJECT_DIR$/productmd/productmapper/src/main/java/com/business/product/mapper/ProBaseMapper.xml" />
+        <option value="$PROJECT_DIR$/productmd/productservice/src/main/java/com/business/product/service/ProSpecialService.java" />
+        <option value="$PROJECT_DIR$/productmd/productserviceimpl/src/main/java/com/business/product/service/impl/ProSpecialServiceImpl.java" />
+        <option value="$PROJECT_DIR$/weboplogmd/weblogController/pom.xml" />
+        <option value="$PROJECT_DIR$/weboplogmd/weblogserviceimpl/pom.xml" />
+        <option value="$PROJECT_DIR$/registermd/registerserviceimpl/src/main/java/com/business/register/service/impl/ConsumerInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/CommercialInfoController.java" />
+        <option value="$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/ConsumerInfoController.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/java/com/business/sysuser/controller/AuthorityManagerController.java" />
+        <option value="$PROJECT_DIR$/sysusermd/sysusermapper/pom.xml" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/pom.xml" />
+        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/ConsumerInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/airticketmd/pom.xml" />
+        <option value="$PROJECT_DIR$/hotelmd/pom.xml" />
+        <option value="$PROJECT_DIR$/purchasemd/pom.xml" />
+        <option value="$PROJECT_DIR$/smsmd/pom.xml" />
+        <option value="$PROJECT_DIR$/walletmd/pom.xml" />
+        <option value="$PROJECT_DIR$/planningmd/pom.xml" />
+        <option value="$PROJECT_DIR$/strategymd/pom.xml" />
+        <option value="$PROJECT_DIR$/weboplogmd/weblogserviceimpl/src/main/java/com/business/weblog/service/impl/WebLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/productmd/productcontroller/src/main/java/com/business/product/controller/ProManagerController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ctripplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctripplatform" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.business.wxpay.servlet" />
+      <recent name="com.business.weblog.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\EXPAND\ctripplatform\productmd\productserviceimpl\src\main\resources" />
+      <recent name="E:\IDEA\EXPAND\ctripplatform\productmd\productcontroller\src\main\resources" />
+      <recent name="E:\IDEA\EXPAND\ctripplatform\orderinmd\orderinserviceimpl\src\main\resources" />
+      <recent name="E:\IDEA\EXPAND\ctripplatform\orderinmd\orderincontroller\src\main\resources" />
+      <recent name="E:\IDEA\EXPAND\ctripplatform\wxpaymd\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LogCtrApplication (1)">
+    <configuration name="LogCtrApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.business.weblog.LogCtrApplication" />
+      <module name="weblogaspect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.business.weblog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LogCtrApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.business.weblog.LogCtrApplication" />
+      <module name="weblogController" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="shiroStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.business.permission.shiroStarter" />
+      <module name="syspermissionmd" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.business.permission.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.shiroStarter" />
+      <item itemvalue="Application.LogCtrApplication" />
+      <item itemvalue="Application.LogCtrApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LogCtrApplication (1)" />
+        <item itemvalue="Application.shiroStarter" />
+        <item itemvalue="Application.LogCtrApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fc4f861-9e73-48d0-8c84-6f62c885b01a" name="Default" comment="" />
+      <created>1538016385287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538016385287</updated>
+      <workItem from="1538016387594" duration="27995000" />
+      <workItem from="1538057548937" duration="1753000" />
+      <workItem from="1538093791149" duration="7195000" />
+      <workItem from="1538125547196" duration="6126000" />
+      <workItem from="1538178849090" duration="25113000" />
+      <workItem from="1538220632231" duration="3246000" />
+      <workItem from="1538265167520" duration="9728000" />
+      <workItem from="1538366390532" duration="24392000" />
+      <workItem from="1538457227966" duration="10271000" />
+      <workItem from="1538468071032" duration="19412000" />
+      <workItem from="1538534753888" duration="25488000" />
+      <workItem from="1538614431565" duration="550000" />
+      <workItem from="1538617508424" duration="599000" />
+      <workItem from="1538620400274" duration="5354000" />
+      <workItem from="1538658054193" duration="595000" />
+      <workItem from="1538701922975" duration="19602000" />
+      <workItem from="1538734808518" duration="540000" />
+      <workItem from="1538886937789" duration="1048000" />
+      <workItem from="1538959939874" duration="1523000" />
+      <workItem from="1539168201669" duration="8473000" />
+      <workItem from="1539219566845" duration="21975000" />
+      <workItem from="1539306152288" duration="7114000" />
+      <workItem from="1539481291808" duration="1387000" />
+      <workItem from="1539485941777" duration="400000" />
+      <workItem from="1539589230217" duration="2407000" />
+      <workItem from="1539697791336" duration="775000" />
+      <workItem from="1540902128553" duration="918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="233979000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.3290469" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328152" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.28366113" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info id="Web" order="6" sideWeight="0.5017007" side_tool="true" weight="0.27912253" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.7755102" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Module Dependencies" order="10" weight="0.32980332" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32993197" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3282313" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32993197" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Module Dependencies" order="10" weight="0.32980332" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.7755102" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.3290469" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.28366113" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" sideWeight="0.5017007" side_tool="true" weight="0.27912253" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserpojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/java/com/business/sysuser/controller/AuthorityManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/AuthorityInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/RoleAndAuthMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/RoleInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/SysAndRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/AuthorityInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleAndAuthMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/SysAndRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/AuthorityInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/CommercialInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/RoleAndAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/RoleInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/SysAndRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/AuthorityInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/RoleAndAuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/RoleInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/SysAndRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/java/com/business/sysuser/controller/UserManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/CommercialInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/CommercialInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/ConsumerInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/ConsumerInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/ConsumerInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/ConsumerInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdto/src/main/java/com/business/sysuser/dto/ConsumerInfoDTO1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdto/src/main/java/com/business/sysuser/dto/ConsumerInfoDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airticketmd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelmd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/purchasemd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smsmd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/walletmd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategymd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planningmd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weboplogmd/weblogserviceimpl/src/main/java/com/business/weblog/service/impl/WebLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productmd/productcontroller/src/main/java/com/business/product/controller/ProManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>orderinserviceimpl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

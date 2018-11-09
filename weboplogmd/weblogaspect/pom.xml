@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>weboplogmd</artifactId>
+        <groupId>com.business</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>weblogaspect</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+
+        <!--依赖服务层接口-->
+        <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>weblogservice</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <!--依赖控制层-->
+        <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>weblogController</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--依赖系统权限模块-->
+       <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>syspermissionmd</artifactId>
+            <version>1.0</version>
+            <scope>privided</scope>
+        </dependency>
+
+        <!--springboot集成aop-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!--添加aspectjweaver包-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.5</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

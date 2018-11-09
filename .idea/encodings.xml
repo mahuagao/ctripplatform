@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activitimd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/airticketmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons_bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons_rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons_redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons_swagger2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons_utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons_zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hotelmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd/orderincontroller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd/orderindao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd/orderindto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd/orderinmapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd/orderinpojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd/orderinservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderinmd/orderinserviceimpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/planningmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd/productcontroller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd/productdao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd/productdto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd/productmapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd/productpojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd/productservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmd/productserviceimpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/purchasemd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd/registerController" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd/registerdao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd/registerdto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd/registermapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd/registerpojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd/registerservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registermd/registerserviceimpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smsmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/strategymd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/syspermissionmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd/sysusercontroller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd/sysuserdao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd/sysuserdto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd/sysusermapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd/sysuserpojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd/sysuserservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/walletmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogController" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogannotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogaspect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogdao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogmapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogpojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weboplogmd/weblogserviceimpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wxpaymd" charset="UTF-8" />
+  </component>
+</project>

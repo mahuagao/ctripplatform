@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activitimd" />
+        <module name="airticketmd" />
+        <module name="commons_bean" />
+        <module name="commons_rabbitmq" />
+        <module name="commons_redis" />
+        <module name="commons_swagger2" />
+        <module name="commons_utils" />
+        <module name="commons_zookeeper" />
+        <module name="hotelmd" />
+        <module name="orderincontroller" />
+        <module name="orderindao" />
+        <module name="orderindto" />
+        <module name="orderinmapper" />
+        <module name="orderinpojo" />
+        <module name="orderinservice" />
+        <module name="orderinserviceimpl" />
+        <module name="planningmd" />
+        <module name="productcontroller" />
+        <module name="productdao" />
+        <module name="productdto" />
+        <module name="productmapper" />
+        <module name="productpojo" />
+        <module name="productservice" />
+        <module name="productserviceimpl" />
+        <module name="purchasemd" />
+        <module name="registerController" />
+        <module name="registerdao" />
+        <module name="registerdto" />
+        <module name="registermapper" />
+        <module name="registerpojo" />
+        <module name="registerservice" />
+        <module name="registerserviceimpl" />
+        <module name="smsmd" />
+        <module name="strategymd" />
+        <module name="syspermissionmd" />
+        <module name="sysusercontroller" />
+        <module name="sysuserdao" />
+        <module name="sysuserdto" />
+        <module name="sysusermapper" />
+        <module name="sysuserpojo" />
+        <module name="sysuserservice" />
+        <module name="sysuserserviceimpl" />
+        <module name="walletmd" />
+        <module name="weblogannotation" />
+        <module name="weblogaspect" />
+        <module name="weblogController" />
+        <module name="weblogdao" />
+        <module name="weblogmapper" />
+        <module name="weblogpojo" />
+        <module name="weblogservice" />
+        <module name="weblogserviceimpl" />
+        <module name="wxpaymd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sysuserController" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

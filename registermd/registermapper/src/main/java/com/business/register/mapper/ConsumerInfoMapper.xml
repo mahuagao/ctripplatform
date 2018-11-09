@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.business.register.dao.ConsumerInfoMapper">
+  <resultMap id="BaseResultMap" type="com.business.register.pojo.ConsumerInfo">
+    <id column="conid" jdbcType="BIGINT" property="conid" />
+    <result column="sysuserid" jdbcType="BIGINT" property="sysuserid" />
+    <result column="conname" jdbcType="VARCHAR" property="conname" />
+    <result column="conage" jdbcType="BIGINT" property="conage" />
+    <result column="conphone" jdbcType="VARCHAR" property="conphone" />
+    <result column="conweixin" jdbcType="VARCHAR" property="conweixin" />
+    <result column="conaddr" jdbcType="VARCHAR" property="conaddr" />
+    <result column="conidentity" jdbcType="VARCHAR" property="conidentity" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    conid, sysuserid, conname, conage, conphone, conweixin, conaddr, conidentity
+  </sql>
+  <select id="selectByExample" parameterType="com.business.register.pojo.ConsumerInfoExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from consumerinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from consumerinfo
+    where conid = #{conid,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from consumerinfo
+    where conid = #{conid,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.business.register.pojo.ConsumerInfoExample">
+    delete from consumerinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.business.register.pojo.ConsumerInfo">
+    insert into consumerinfo (conid, sysuserid, conname, 
+      conage, conphone, conweixin, 
+      conaddr, conidentity)
+    values (#{conid,jdbcType=BIGINT}, #{sysuserid,jdbcType=BIGINT}, #{conname,jdbcType=VARCHAR}, 
+      #{conage,jdbcType=BIGINT}, #{conphone,jdbcType=VARCHAR}, #{conweixin,jdbcType=VARCHAR}, 
+      #{conaddr,jdbcType=VARCHAR}, #{conidentity,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.business.register.pojo.ConsumerInfo">
+    insert into consumerinfo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="conid != null">
+        conid,
+      </if>
+      <if test="sysuserid != null">
+        sysuserid,
+      </if>
+      <if test="conname != null">
+        conname,
+      </if>
+      <if test="conage != null">
+        conage,
+      </if>
+      <if test="conphone != null">
+        conphone,
+      </if>
+      <if test="conweixin != null">
+        conweixin,
+      </if>
+      <if test="conaddr != null">
+        conaddr,
+      </if>
+      <if test="conidentity != null">
+        conidentity,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="conid != null">
+        #{conid,jdbcType=BIGINT},
+      </if>
+      <if test="sysuserid != null">
+        #{sysuserid,jdbcType=BIGINT},
+      </if>
+      <if test="conname != null">
+        #{conname,jdbcType=VARCHAR},
+      </if>
+      <if test="conage != null">
+        #{conage,jdbcType=BIGINT},
+      </if>
+      <if test="conphone != null">
+        #{conphone,jdbcType=VARCHAR},
+      </if>
+      <if test="conweixin != null">
+        #{conweixin,jdbcType=VARCHAR},
+      </if>
+      <if test="conaddr != null">
+        #{conaddr,jdbcType=VARCHAR},
+      </if>
+      <if test="conidentity != null">
+        #{conidentity,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.business.register.pojo.ConsumerInfoExample" resultType="java.lang.Long">
+    select count(*) from consumerinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update consumerinfo
+    <set>
+      <if test="record.conid != null">
+        conid = #{record.conid,jdbcType=BIGINT},
+      </if>
+      <if test="record.sysuserid != null">
+        sysuserid = #{record.sysuserid,jdbcType=BIGINT},
+      </if>
+      <if test="record.conname != null">
+        conname = #{record.conname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.conage != null">
+        conage = #{record.conage,jdbcType=BIGINT},
+      </if>
+      <if test="record.conphone != null">
+        conphone = #{record.conphone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.conweixin != null">
+        conweixin = #{record.conweixin,jdbcType=VARCHAR},
+      </if>
+      <if test="record.conaddr != null">
+        conaddr = #{record.conaddr,jdbcType=VARCHAR},
+      </if>
+      <if test="record.conidentity != null">
+        conidentity = #{record.conidentity,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update consumerinfo
+    set conid = #{record.conid,jdbcType=BIGINT},
+      sysuserid = #{record.sysuserid,jdbcType=BIGINT},
+      conname = #{record.conname,jdbcType=VARCHAR},
+      conage = #{record.conage,jdbcType=BIGINT},
+      conphone = #{record.conphone,jdbcType=VARCHAR},
+      conweixin = #{record.conweixin,jdbcType=VARCHAR},
+      conaddr = #{record.conaddr,jdbcType=VARCHAR},
+      conidentity = #{record.conidentity,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.business.register.pojo.ConsumerInfo">
+    update consumerinfo
+    <set>
+      <if test="sysuserid != null">
+        sysuserid = #{sysuserid,jdbcType=BIGINT},
+      </if>
+      <if test="conname != null">
+        conname = #{conname,jdbcType=VARCHAR},
+      </if>
+      <if test="conage != null">
+        conage = #{conage,jdbcType=BIGINT},
+      </if>
+      <if test="conphone != null">
+        conphone = #{conphone,jdbcType=VARCHAR},
+      </if>
+      <if test="conweixin != null">
+        conweixin = #{conweixin,jdbcType=VARCHAR},
+      </if>
+      <if test="conaddr != null">
+        conaddr = #{conaddr,jdbcType=VARCHAR},
+      </if>
+      <if test="conidentity != null">
+        conidentity = #{conidentity,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where conid = #{conid,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.business.register.pojo.ConsumerInfo">
+    update consumerinfo
+    set sysuserid = #{sysuserid,jdbcType=BIGINT},
+      conname = #{conname,jdbcType=VARCHAR},
+      conage = #{conage,jdbcType=BIGINT},
+      conphone = #{conphone,jdbcType=VARCHAR},
+      conweixin = #{conweixin,jdbcType=VARCHAR},
+      conaddr = #{conaddr,jdbcType=VARCHAR},
+      conidentity = #{conidentity,jdbcType=VARCHAR}
+    where conid = #{conid,jdbcType=BIGINT}
+  </update>
+</mapper>

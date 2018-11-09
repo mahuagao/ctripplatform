@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.business.orderin.dao.OrderInfoMapper">
+  <resultMap id="BaseResultMap" type="com.business.orderin.pojo.OrderInfo">
+    <id column="orderid" jdbcType="VARCHAR" property="orderid" />
+    <result column="conid" jdbcType="BIGINT" property="conid" />
+    <result column="commerid" jdbcType="BIGINT" property="commerid" />
+    <result column="conname" jdbcType="VARCHAR" property="conname" />
+    <result column="conphone" jdbcType="VARCHAR" property="conphone" />
+    <result column="proname" jdbcType="VARCHAR" property="proname" />
+    <result column="topename" jdbcType="VARCHAR" property="topename" />
+    <result column="topephone" jdbcType="VARCHAR" property="topephone" />
+    <result column="ordertype" jdbcType="VARCHAR" property="ordertype" />
+    <result column="orderstate" jdbcType="BIGINT" property="orderstate" />
+    <result column="isorder" jdbcType="BIGINT" property="isorder" />
+    <result column="createdate" jdbcType="DATE" property="createdate" />
+    <result column="tradetype" jdbcType="VARCHAR" property="tradetype" />
+    <result column="orderpay" jdbcType="BIGINT" property="orderpay" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    orderid, conid, commerid, conname, conphone, proname, topename, topephone, ordertype, 
+    orderstate, isorder, createdate, tradetype, orderpay
+  </sql>
+  <select id="selectByExample" parameterType="com.business.orderin.pojo.OrderInfoExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from orderinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from orderinfo
+    where orderid = #{orderid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from orderinfo
+    where orderid = #{orderid,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.business.orderin.pojo.OrderInfoExample">
+    delete from orderinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.business.orderin.pojo.OrderInfo">
+    insert into orderinfo (orderid, conid, commerid, 
+      conname, conphone, proname, 
+      topename, topephone, ordertype, 
+      orderstate, isorder, createdate, 
+      tradetype, orderpay)
+    values (#{orderid,jdbcType=VARCHAR}, #{conid,jdbcType=BIGINT}, #{commerid,jdbcType=BIGINT}, 
+      #{conname,jdbcType=VARCHAR}, #{conphone,jdbcType=VARCHAR}, #{proname,jdbcType=VARCHAR}, 
+      #{topename,jdbcType=VARCHAR}, #{topephone,jdbcType=VARCHAR}, #{ordertype,jdbcType=VARCHAR}, 
+      #{orderstate,jdbcType=BIGINT}, #{isorder,jdbcType=BIGINT}, #{createdate,jdbcType=DATE}, 
+      #{tradetype,jdbcType=VARCHAR}, #{orderpay,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.business.orderin.pojo.OrderInfo">
+    insert into orderinfo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="orderid != null">
+        orderid,
+      </if>
+      <if test="conid != null">
+        conid,
+      </if>
+      <if test="commerid != null">
+        commerid,
+      </if>
+      <if test="conname != null">
+        conname,
+      </if>
+      <if test="conphone != null">
+        conphone,
+      </if>
+      <if test="proname != null">
+        proname,
+      </if>
+      <if test="topename != null">
+        topename,
+      </if>
+      <if test="topephone != null">
+        topephone,
+      </if>
+      <if test="ordertype != null">
+        ordertype,
+      </if>
+      <if test="orderstate != null">
+        orderstate,
+      </if>
+      <if test="isorder != null">
+        isorder,
+      </if>
+      <if test="createdate != null">
+        createdate,
+      </if>
+      <if test="tradetype != null">
+        tradetype,
+      </if>
+      <if test="orderpay != null">
+        orderpay,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="orderid != null">
+        #{orderid,jdbcType=VARCHAR},
+      </if>
+      <if test="conid != null">
+        #{conid,jdbcType=BIGINT},
+      </if>
+      <if test="commerid != null">
+        #{commerid,jdbcType=BIGINT},
+      </if>
+      <if test="conname != null">
+        #{conname,jdbcType=VARCHAR},
+      </if>
+      <if test="conphone != null">
+        #{conphone,jdbcType=VARCHAR},
+      </if>
+      <if test="proname != null">
+        #{proname,jdbcType=VARCHAR},
+      </if>
+      <if test="topename != null">
+        #{topename,jdbcType=VARCHAR},
+      </if>
+      <if test="topephone != null">
+        #{topephone,jdbcType=VARCHAR},
+      </if>
+      <if test="ordertype != null">
+        #{ordertype,jdbcType=VARCHAR},
+      </if>
+      <if test="orderstate != null">
+        #{orderstate,jdbcType=BIGINT},
+      </if>
+      <if test="isorder != null">
+        #{isorder,jdbcType=BIGINT},
+      </if>
+      <if test="createdate != null">
+        #{createdate,jdbcType=DATE},
+      </if>
+      <if test="tradetype != null">
+        #{tradetype,jdbcType=VARCHAR},
+      </if>
+      <if test="orderpay != null">
+        #{orderpay,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.business.orderin.pojo.OrderInfoExample" resultType="java.lang.Long">
+    select count(*) from orderinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update orderinfo
+    <set>
+      <if test="record.orderid != null">
+        orderid = #{record.orderid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.conid != null">
+        conid = #{record.conid,jdbcType=BIGINT},
+      </if>
+      <if test="record.commerid != null">
+        commerid = #{record.commerid,jdbcType=BIGINT},
+      </if>
+      <if test="record.conname != null">
+        conname = #{record.conname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.conphone != null">
+        conphone = #{record.conphone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.proname != null">
+        proname = #{record.proname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.topename != null">
+        topename = #{record.topename,jdbcType=VARCHAR},
+      </if>
+      <if test="record.topephone != null">
+        topephone = #{record.topephone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.ordertype != null">
+        ordertype = #{record.ordertype,jdbcType=VARCHAR},
+      </if>
+      <if test="record.orderstate != null">
+        orderstate = #{record.orderstate,jdbcType=BIGINT},
+      </if>
+      <if test="record.isorder != null">
+        isorder = #{record.isorder,jdbcType=BIGINT},
+      </if>
+      <if test="record.createdate != null">
+        createdate = #{record.createdate,jdbcType=DATE},
+      </if>
+      <if test="record.tradetype != null">
+        tradetype = #{record.tradetype,jdbcType=VARCHAR},
+      </if>
+      <if test="record.orderpay != null">
+        orderpay = #{record.orderpay,jdbcType=BIGINT},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update orderinfo
+    set orderid = #{record.orderid,jdbcType=VARCHAR},
+      conid = #{record.conid,jdbcType=BIGINT},
+      commerid = #{record.commerid,jdbcType=BIGINT},
+      conname = #{record.conname,jdbcType=VARCHAR},
+      conphone = #{record.conphone,jdbcType=VARCHAR},
+      proname = #{record.proname,jdbcType=VARCHAR},
+      topename = #{record.topename,jdbcType=VARCHAR},
+      topephone = #{record.topephone,jdbcType=VARCHAR},
+      ordertype = #{record.ordertype,jdbcType=VARCHAR},
+      orderstate = #{record.orderstate,jdbcType=BIGINT},
+      isorder = #{record.isorder,jdbcType=BIGINT},
+      createdate = #{record.createdate,jdbcType=DATE},
+      tradetype = #{record.tradetype,jdbcType=VARCHAR},
+      orderpay = #{record.orderpay,jdbcType=BIGINT}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.business.orderin.pojo.OrderInfo">
+    update orderinfo
+    <set>
+      <if test="conid != null">
+        conid = #{conid,jdbcType=BIGINT},
+      </if>
+      <if test="commerid != null">
+        commerid = #{commerid,jdbcType=BIGINT},
+      </if>
+      <if test="conname != null">
+        conname = #{conname,jdbcType=VARCHAR},
+      </if>
+      <if test="conphone != null">
+        conphone = #{conphone,jdbcType=VARCHAR},
+      </if>
+      <if test="proname != null">
+        proname = #{proname,jdbcType=VARCHAR},
+      </if>
+      <if test="topename != null">
+        topename = #{topename,jdbcType=VARCHAR},
+      </if>
+      <if test="topephone != null">
+        topephone = #{topephone,jdbcType=VARCHAR},
+      </if>
+      <if test="ordertype != null">
+        ordertype = #{ordertype,jdbcType=VARCHAR},
+      </if>
+      <if test="orderstate != null">
+        orderstate = #{orderstate,jdbcType=BIGINT},
+      </if>
+      <if test="isorder != null">
+        isorder = #{isorder,jdbcType=BIGINT},
+      </if>
+      <if test="createdate != null">
+        createdate = #{createdate,jdbcType=DATE},
+      </if>
+      <if test="tradetype != null">
+        tradetype = #{tradetype,jdbcType=VARCHAR},
+      </if>
+      <if test="orderpay != null">
+        orderpay = #{orderpay,jdbcType=BIGINT},
+      </if>
+    </set>
+    where orderid = #{orderid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.business.orderin.pojo.OrderInfo">
+    update orderinfo
+    set conid = #{conid,jdbcType=BIGINT},
+      commerid = #{commerid,jdbcType=BIGINT},
+      conname = #{conname,jdbcType=VARCHAR},
+      conphone = #{conphone,jdbcType=VARCHAR},
+      proname = #{proname,jdbcType=VARCHAR},
+      topename = #{topename,jdbcType=VARCHAR},
+      topephone = #{topephone,jdbcType=VARCHAR},
+      ordertype = #{ordertype,jdbcType=VARCHAR},
+      orderstate = #{orderstate,jdbcType=BIGINT},
+      isorder = #{isorder,jdbcType=BIGINT},
+      createdate = #{createdate,jdbcType=DATE},
+      tradetype = #{tradetype,jdbcType=VARCHAR},
+      orderpay = #{orderpay,jdbcType=BIGINT}
+    where orderid = #{orderid,jdbcType=VARCHAR}
+  </update>
+</mapper>

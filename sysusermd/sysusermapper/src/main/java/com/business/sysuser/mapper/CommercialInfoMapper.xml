@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.business.sysuser.dao.CommercialInfoMapper">
+  <resultMap id="BaseResultMap" type="com.business.sysuser.pojo.CommercialInfo">
+    <id column="commerid" jdbcType="BIGINT" property="commerid" />
+    <result column="sysuserid" jdbcType="BIGINT" property="sysuserid" />
+    <result column="comgytypeid" jdbcType="BIGINT" property="comgytypeid" />
+    <result column="comname" jdbcType="VARCHAR" property="comname" />
+    <result column="commoney" jdbcType="BIGINT" property="commoney" />
+    <result column="comemail" jdbcType="VARCHAR" property="comemail" />
+    <result column="comweixin" jdbcType="VARCHAR" property="comweixin" />
+    <result column="comqq" jdbcType="VARCHAR" property="comqq" />
+    <result column="combank" jdbcType="VARCHAR" property="combank" />
+    <result column="compersoon" jdbcType="VARCHAR" property="compersoon" />
+    <result column="comphone" jdbcType="VARCHAR" property="comphone" />
+    <result column="comtele" jdbcType="VARCHAR" property="comtele" />
+    <result column="comidentity" jdbcType="VARCHAR" property="comidentity" />
+    <result column="comaddr" jdbcType="VARCHAR" property="comaddr" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    commerid, sysuserid, comgytypeid, comname, commoney, comemail, comweixin, comqq, 
+    combank, compersoon, comphone, comtele, comidentity, comaddr
+  </sql>
+
+    <!--*****************后加********************-->
+    <!--查询所有商家-->
+    <select id="selectAll" resultType="com.business.sysuser.pojo.CommercialInfo">
+        select * from commercialinfo
+    </select>
+
+    <!--****************************************-->
+
+  <select id="selectByExample" parameterType="com.business.sysuser.pojo.CommercialInfoExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from commercialinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from commercialinfo
+    where commerid = #{commerid,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from commercialinfo
+    where commerid = #{commerid,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.business.sysuser.pojo.CommercialInfoExample">
+    delete from commercialinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.business.sysuser.pojo.CommercialInfo">
+    insert into commercialinfo (commerid, sysuserid, comgytypeid, 
+      comname, commoney, comemail, 
+      comweixin, comqq, combank, 
+      compersoon, comphone, comtele, 
+      comidentity, comaddr)
+    values (#{commerid,jdbcType=BIGINT}, #{sysuserid,jdbcType=BIGINT}, #{comgytypeid,jdbcType=BIGINT}, 
+      #{comname,jdbcType=VARCHAR}, #{commoney,jdbcType=BIGINT}, #{comemail,jdbcType=VARCHAR}, 
+      #{comweixin,jdbcType=VARCHAR}, #{comqq,jdbcType=VARCHAR}, #{combank,jdbcType=VARCHAR}, 
+      #{compersoon,jdbcType=VARCHAR}, #{comphone,jdbcType=VARCHAR}, #{comtele,jdbcType=VARCHAR}, 
+      #{comidentity,jdbcType=VARCHAR}, #{comaddr,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.business.sysuser.pojo.CommercialInfo">
+    insert into commercialinfo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="commerid != null">
+        commerid,
+      </if>
+      <if test="sysuserid != null">
+        sysuserid,
+      </if>
+      <if test="comgytypeid != null">
+        comgytypeid,
+      </if>
+      <if test="comname != null">
+        comname,
+      </if>
+      <if test="commoney != null">
+        commoney,
+      </if>
+      <if test="comemail != null">
+        comemail,
+      </if>
+      <if test="comweixin != null">
+        comweixin,
+      </if>
+      <if test="comqq != null">
+        comqq,
+      </if>
+      <if test="combank != null">
+        combank,
+      </if>
+      <if test="compersoon != null">
+        compersoon,
+      </if>
+      <if test="comphone != null">
+        comphone,
+      </if>
+      <if test="comtele != null">
+        comtele,
+      </if>
+      <if test="comidentity != null">
+        comidentity,
+      </if>
+      <if test="comaddr != null">
+        comaddr,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="commerid != null">
+        #{commerid,jdbcType=BIGINT},
+      </if>
+      <if test="sysuserid != null">
+        #{sysuserid,jdbcType=BIGINT},
+      </if>
+      <if test="comgytypeid != null">
+        #{comgytypeid,jdbcType=BIGINT},
+      </if>
+      <if test="comname != null">
+        #{comname,jdbcType=VARCHAR},
+      </if>
+      <if test="commoney != null">
+        #{commoney,jdbcType=BIGINT},
+      </if>
+      <if test="comemail != null">
+        #{comemail,jdbcType=VARCHAR},
+      </if>
+      <if test="comweixin != null">
+        #{comweixin,jdbcType=VARCHAR},
+      </if>
+      <if test="comqq != null">
+        #{comqq,jdbcType=VARCHAR},
+      </if>
+      <if test="combank != null">
+        #{combank,jdbcType=VARCHAR},
+      </if>
+      <if test="compersoon != null">
+        #{compersoon,jdbcType=VARCHAR},
+      </if>
+      <if test="comphone != null">
+        #{comphone,jdbcType=VARCHAR},
+      </if>
+      <if test="comtele != null">
+        #{comtele,jdbcType=VARCHAR},
+      </if>
+      <if test="comidentity != null">
+        #{comidentity,jdbcType=VARCHAR},
+      </if>
+      <if test="comaddr != null">
+        #{comaddr,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.business.sysuser.pojo.CommercialInfoExample" resultType="java.lang.Long">
+    select count(*) from commercialinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update commercialinfo
+    <set>
+      <if test="record.commerid != null">
+        commerid = #{record.commerid,jdbcType=BIGINT},
+      </if>
+      <if test="record.sysuserid != null">
+        sysuserid = #{record.sysuserid,jdbcType=BIGINT},
+      </if>
+      <if test="record.comgytypeid != null">
+        comgytypeid = #{record.comgytypeid,jdbcType=BIGINT},
+      </if>
+      <if test="record.comname != null">
+        comname = #{record.comname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.commoney != null">
+        commoney = #{record.commoney,jdbcType=BIGINT},
+      </if>
+      <if test="record.comemail != null">
+        comemail = #{record.comemail,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comweixin != null">
+        comweixin = #{record.comweixin,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comqq != null">
+        comqq = #{record.comqq,jdbcType=VARCHAR},
+      </if>
+      <if test="record.combank != null">
+        combank = #{record.combank,jdbcType=VARCHAR},
+      </if>
+      <if test="record.compersoon != null">
+        compersoon = #{record.compersoon,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comphone != null">
+        comphone = #{record.comphone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comtele != null">
+        comtele = #{record.comtele,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comidentity != null">
+        comidentity = #{record.comidentity,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comaddr != null">
+        comaddr = #{record.comaddr,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update commercialinfo
+    set commerid = #{record.commerid,jdbcType=BIGINT},
+      sysuserid = #{record.sysuserid,jdbcType=BIGINT},
+      comgytypeid = #{record.comgytypeid,jdbcType=BIGINT},
+      comname = #{record.comname,jdbcType=VARCHAR},
+      commoney = #{record.commoney,jdbcType=BIGINT},
+      comemail = #{record.comemail,jdbcType=VARCHAR},
+      comweixin = #{record.comweixin,jdbcType=VARCHAR},
+      comqq = #{record.comqq,jdbcType=VARCHAR},
+      combank = #{record.combank,jdbcType=VARCHAR},
+      compersoon = #{record.compersoon,jdbcType=VARCHAR},
+      comphone = #{record.comphone,jdbcType=VARCHAR},
+      comtele = #{record.comtele,jdbcType=VARCHAR},
+      comidentity = #{record.comidentity,jdbcType=VARCHAR},
+      comaddr = #{record.comaddr,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.business.sysuser.pojo.CommercialInfo">
+    update commercialinfo
+    <set>
+      <if test="sysuserid != null">
+        sysuserid = #{sysuserid,jdbcType=BIGINT},
+      </if>
+      <if test="comgytypeid != null">
+        comgytypeid = #{comgytypeid,jdbcType=BIGINT},
+      </if>
+      <if test="comname != null">
+        comname = #{comname,jdbcType=VARCHAR},
+      </if>
+      <if test="commoney != null">
+        commoney = #{commoney,jdbcType=BIGINT},
+      </if>
+      <if test="comemail != null">
+        comemail = #{comemail,jdbcType=VARCHAR},
+      </if>
+      <if test="comweixin != null">
+        comweixin = #{comweixin,jdbcType=VARCHAR},
+      </if>
+      <if test="comqq != null">
+        comqq = #{comqq,jdbcType=VARCHAR},
+      </if>
+      <if test="combank != null">
+        combank = #{combank,jdbcType=VARCHAR},
+      </if>
+      <if test="compersoon != null">
+        compersoon = #{compersoon,jdbcType=VARCHAR},
+      </if>
+      <if test="comphone != null">
+        comphone = #{comphone,jdbcType=VARCHAR},
+      </if>
+      <if test="comtele != null">
+        comtele = #{comtele,jdbcType=VARCHAR},
+      </if>
+      <if test="comidentity != null">
+        comidentity = #{comidentity,jdbcType=VARCHAR},
+      </if>
+      <if test="comaddr != null">
+        comaddr = #{comaddr,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where commerid = #{commerid,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.business.sysuser.pojo.CommercialInfo">
+    update commercialinfo
+    set sysuserid = #{sysuserid,jdbcType=BIGINT},
+      comgytypeid = #{comgytypeid,jdbcType=BIGINT},
+      comname = #{comname,jdbcType=VARCHAR},
+      commoney = #{commoney,jdbcType=BIGINT},
+      comemail = #{comemail,jdbcType=VARCHAR},
+      comweixin = #{comweixin,jdbcType=VARCHAR},
+      comqq = #{comqq,jdbcType=VARCHAR},
+      combank = #{combank,jdbcType=VARCHAR},
+      compersoon = #{compersoon,jdbcType=VARCHAR},
+      comphone = #{comphone,jdbcType=VARCHAR},
+      comtele = #{comtele,jdbcType=VARCHAR},
+      comidentity = #{comidentity,jdbcType=VARCHAR},
+      comaddr = #{comaddr,jdbcType=VARCHAR}
+    where commerid = #{commerid,jdbcType=BIGINT}
+  </update>
+</mapper>

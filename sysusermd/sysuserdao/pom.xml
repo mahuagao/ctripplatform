@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>sysusermd</artifactId>
+        <groupId>com.business</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>sysuserdao</artifactId>
+
+    <dependencies>
+
+        <!--依赖实体类pojo-->
+        <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>sysuserpojo</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--依赖数据传输对象-->
+        <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>sysuserdto</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!-- springboot整合mybatis -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+
+
+
+    </dependencies>
+
+
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>registermd</artifactId>
+        <groupId>com.business</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>registerservice</artifactId>
+
+    <dependencies>
+        <!--服务层需要用到pojo实体类-->
+        <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>registerpojo</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!--依赖数据传输对象DTO-->
+        <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>registerdto</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!--依赖公共组件模块的 commons_bean-->
+        <dependency>
+            <groupId>com.business</groupId>
+            <artifactId>commons_bean</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

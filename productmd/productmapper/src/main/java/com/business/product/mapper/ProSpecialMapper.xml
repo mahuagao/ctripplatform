@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.business.product.dao.ProSpecialMapper">
+  <resultMap id="BaseResultMap" type="com.business.product.pojo.ProSpecial">
+    <id column="proid" jdbcType="BIGINT" property="proid" />
+    <id column="protypeid" jdbcType="BIGINT" property="protypeid" />
+    <result column="roomtype" jdbcType="VARCHAR" property="roomtype" />
+    <result column="startpo" jdbcType="VARCHAR" property="startpo" />
+    <result column="destination" jdbcType="VARCHAR" property="destination" />
+    <result column="viewpoint" jdbcType="VARCHAR" property="viewpoint" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    proid, protypeid, roomtype, startpo, destination, viewpoint
+  </sql>
+
+    <!--****************后加*******************-->
+    <delete id="deleteByProid" >
+        delete from prospecial where proid = #{proid}
+    </delete>
+    <!--**************************************-->
+
+  <select id="selectByExample" parameterType="com.business.product.pojo.ProSpecialExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from prospecial
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="com.business.product.pojo.ProSpecialKey" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from prospecial
+    where proid = #{proid,jdbcType=BIGINT}
+      and protypeid = #{protypeid,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="com.business.product.pojo.ProSpecialKey">
+    delete from prospecial
+    where proid = #{proid,jdbcType=BIGINT}
+      and protypeid = #{protypeid,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.business.product.pojo.ProSpecialExample">
+    delete from prospecial
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.business.product.pojo.ProSpecial">
+    insert into prospecial (proid, protypeid, roomtype, 
+      startpo, destination, viewpoint
+      )
+    values (#{proid,jdbcType=BIGINT}, #{protypeid,jdbcType=BIGINT}, #{roomtype,jdbcType=VARCHAR}, 
+      #{startpo,jdbcType=VARCHAR}, #{destination,jdbcType=VARCHAR}, #{viewpoint,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.business.product.pojo.ProSpecial">
+    insert into prospecial
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="proid != null">
+        proid,
+      </if>
+      <if test="protypeid != null">
+        protypeid,
+      </if>
+      <if test="roomtype != null">
+        roomtype,
+      </if>
+      <if test="startpo != null">
+        startpo,
+      </if>
+      <if test="destination != null">
+        destination,
+      </if>
+      <if test="viewpoint != null">
+        viewpoint,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="proid != null">
+        #{proid,jdbcType=BIGINT},
+      </if>
+      <if test="protypeid != null">
+        #{protypeid,jdbcType=BIGINT},
+      </if>
+      <if test="roomtype != null">
+        #{roomtype,jdbcType=VARCHAR},
+      </if>
+      <if test="startpo != null">
+        #{startpo,jdbcType=VARCHAR},
+      </if>
+      <if test="destination != null">
+        #{destination,jdbcType=VARCHAR},
+      </if>
+      <if test="viewpoint != null">
+        #{viewpoint,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.business.product.pojo.ProSpecialExample" resultType="java.lang.Long">
+    select count(*) from prospecial
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update prospecial
+    <set>
+      <if test="record.proid != null">
+        proid = #{record.proid,jdbcType=BIGINT},
+      </if>
+      <if test="record.protypeid != null">
+        protypeid = #{record.protypeid,jdbcType=BIGINT},
+      </if>
+      <if test="record.roomtype != null">
+        roomtype = #{record.roomtype,jdbcType=VARCHAR},
+      </if>
+      <if test="record.startpo != null">
+        startpo = #{record.startpo,jdbcType=VARCHAR},
+      </if>
+      <if test="record.destination != null">
+        destination = #{record.destination,jdbcType=VARCHAR},
+      </if>
+      <if test="record.viewpoint != null">
+        viewpoint = #{record.viewpoint,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update prospecial
+    set proid = #{record.proid,jdbcType=BIGINT},
+      protypeid = #{record.protypeid,jdbcType=BIGINT},
+      roomtype = #{record.roomtype,jdbcType=VARCHAR},
+      startpo = #{record.startpo,jdbcType=VARCHAR},
+      destination = #{record.destination,jdbcType=VARCHAR},
+      viewpoint = #{record.viewpoint,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.business.product.pojo.ProSpecial">
+    update prospecial
+    <set>
+      <if test="roomtype != null">
+        roomtype = #{roomtype,jdbcType=VARCHAR},
+      </if>
+      <if test="startpo != null">
+        startpo = #{startpo,jdbcType=VARCHAR},
+      </if>
+      <if test="destination != null">
+        destination = #{destination,jdbcType=VARCHAR},
+      </if>
+      <if test="viewpoint != null">
+        viewpoint = #{viewpoint,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where proid = #{proid,jdbcType=BIGINT}
+      and protypeid = #{protypeid,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.business.product.pojo.ProSpecial">
+    update prospecial
+    set roomtype = #{roomtype,jdbcType=VARCHAR},
+      startpo = #{startpo,jdbcType=VARCHAR},
+      destination = #{destination,jdbcType=VARCHAR},
+      viewpoint = #{viewpoint,jdbcType=VARCHAR}
+    where proid = #{proid,jdbcType=BIGINT}
+      and protypeid = #{protypeid,jdbcType=BIGINT}
+  </update>
+</mapper>
