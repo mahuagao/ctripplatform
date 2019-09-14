@@ -10,9 +10,9 @@
 	</commentGenerator>
 	  <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
     <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                    connectionURL="jdbc:mysql://localhost:3306/travplatform?characterEncoding=utf-8"
+                    connectionURL="jdbc:mysql://47.94.168.85:3306/travplatform?characterEncoding=utf-8"
                     userId="root"
-                    password="k950101" />
+                    password="123456" />
 	  <!-- 生成POJO类JavaBean的位置 -->
     <javaModelGenerator targetPackage="com.business.permission.pojo" targetProject="src/main/java" />
 	  <!-- mapper映射文件（动态SQL）生成的位置 -->
@@ -22,8 +22,6 @@
 	  <!-- 指定数据库表 -->
        <!--系统用户表-->
       <table  tableName="sysuser" domainObjectName="SysUser"></table>
-       <!--用户角色表-->
-      <table  tableName="sysandrole" domainObjectName="SysAndRole"></table>
        <!--角色表-->
       <table  tableName="roleinfo" domainObjectName="RoleInfo"></table>
        <!--角色权限表-->

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.business.permission.dao.RoleInfoMapper">
   <resultMap id="BaseResultMap" type="com.business.permission.pojo.RoleInfo">
-    <id column="roleid" jdbcType="BIGINT" property="roleid" />
+    <id column="roleidenty" jdbcType="BIGINT" property="roleidenty" />
     <result column="roletype" jdbcType="VARCHAR" property="roletype" />
   </resultMap>
   <sql id="Example_Where_Clause">
@@ -64,17 +64,13 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    roleid, roletype
+    roleidenty, roletype
   </sql>
-
-    <!--***************后加******************-->
-    <!--通过角色id去角色表查角色类型-->
-    <select id = "selectTypeById" parameterType="java.lang.long"  resultType="java.lang.String">
-        select roletype from roleinfo where roleid = #{roleid}
+    <select id="selectTypeById" parameterType="java.lang.Long" resultType="java.lang.String">
+       select roletype from roleinfo where roleidenty = #{roleidenty}
     </select>
-    <!--************************************ -->
 
-    <select id="selectByExample" parameterType="com.business.permission.pojo.RoleInfoExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.business.permission.pojo.RoleInfoExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -92,11 +88,11 @@
     select 
     <include refid="Base_Column_List" />
     from roleinfo
-    where roleid = #{roleid,jdbcType=BIGINT}
+    where roleidenty = #{roleidenty,jdbcType=BIGINT}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from roleinfo
-    where roleid = #{roleid,jdbcType=BIGINT}
+    where roleidenty = #{roleidenty,jdbcType=BIGINT}
   </delete>
   <delete id="deleteByExample" parameterType="com.business.permission.pojo.RoleInfoExample">
     delete from roleinfo
@@ -105,29 +101,28 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.business.permission.pojo.RoleInfo">
-    insert into roleinfo (roleid, roletype)
-    values (#{roleid,jdbcType=BIGINT}, #{roletype,jdbcType=VARCHAR})
+    insert into roleinfo (roleidenty, roletype)
+    values (#{roleidenty,jdbcType=BIGINT}, #{roletype,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.business.permission.pojo.RoleInfo">
-
       <!--**********后加**************-->
-      <selectKey keyProperty="roleid">
+      <selectKey keyProperty="roleidenty">
           select last_insert_id()
       </selectKey>
       <!--*****************************-->
 
       insert into roleinfo
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="roleid != null">
-        roleid,
+      <if test="roleidenty != null">
+        roleidenty,
       </if>
       <if test="roletype != null">
         roletype,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="roleid != null">
-        #{roleid,jdbcType=BIGINT},
+      <if test="roleidenty != null">
+        #{roleidenty,jdbcType=BIGINT},
       </if>
       <if test="roletype != null">
         #{roletype,jdbcType=VARCHAR},
@@ -143,8 +138,8 @@
   <update id="updateByExampleSelective" parameterType="map">
     update roleinfo
     <set>
-      <if test="record.roleid != null">
-        roleid = #{record.roleid,jdbcType=BIGINT},
+      <if test="record.roleidenty != null">
+        roleidenty = #{record.roleidenty,jdbcType=BIGINT},
       </if>
       <if test="record.roletype != null">
         roletype = #{record.roletype,jdbcType=VARCHAR},
@@ -156,7 +151,7 @@
   </update>
   <update id="updateByExample" parameterType="map">
     update roleinfo
-    set roleid = #{record.roleid,jdbcType=BIGINT},
+    set roleidenty = #{record.roleidenty,jdbcType=BIGINT},
       roletype = #{record.roletype,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -169,11 +164,11 @@
         roletype = #{roletype,jdbcType=VARCHAR},
       </if>
     </set>
-    where roleid = #{roleid,jdbcType=BIGINT}
+    where roleidenty = #{roleidenty,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.business.permission.pojo.RoleInfo">
     update roleinfo
     set roletype = #{roletype,jdbcType=VARCHAR}
-    where roleid = #{roleid,jdbcType=BIGINT}
+    where roleidenty = #{roleidenty,jdbcType=BIGINT}
   </update>
 </mapper>

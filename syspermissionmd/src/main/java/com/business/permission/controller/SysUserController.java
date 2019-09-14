@@ -4,6 +4,7 @@ import com.business.permission.pojo.SysUser;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,10 +13,11 @@ import javax.servlet.http.HttpSession;
 
 
 @RestController //相当于@Controller  +  @ResponseBody 表示这个controller下返回的都是json格式数据，不能做页面跳转
+@RequestMapping("/0001")
 public class SysUserController {
 
 
-    @RequestMapping("/syslogin.do")
+    @GetMapping("/syslogin.do")
     public String login(HttpServletRequest request){
         String username = request.getParameter("username");
         String password = request.getParameter("password");
@@ -46,7 +48,7 @@ public class SysUserController {
     }
 
 
-    @RequestMapping("/logout.do")
+    @GetMapping("/logout.do")
     public void logout(){
         //无需写任何内容
     }

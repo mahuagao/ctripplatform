@@ -22,8 +22,6 @@ mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.business.permission.pojo
 
-server:
-  address: 127.0.0.1
-  port: 8085
+
 
 

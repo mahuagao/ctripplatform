@@ -8,6 +8,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,11 +20,10 @@ import javax.servlet.http.HttpSession;
 //这是springboot的启动类
 // springboot提供了类似tomcat的中间件，web项目可以不需要web容器（tomcat）下的情况下能运行
 @SpringBootApplication
+@EnableDiscoveryClient
 @MapperScan("com.business.permission.dao")   //扫描dao层接口
-//扫描服务层、表现层
-@ComponentScan("com.business.permission")
+@ComponentScan("com.business.permission")   //扫描服务层、表现层
 public class shiroStarter {
-
     public static void main(String[] args){
         SpringApplication.run(shiroStarter.class,args);
     }

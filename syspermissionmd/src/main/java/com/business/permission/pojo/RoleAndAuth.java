@@ -1,10 +1,19 @@
-package com.business.permission.dto;
+package com.business.permission.pojo;
 
-public class RoleAndAuthKeyDTO {
+public class RoleAndAuth {
+    private Long id;
 
     private Long roleidenty;
 
     private Long authidenty;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Long getRoleidenty() {
         return roleidenty;

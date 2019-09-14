@@ -2,9 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.business.permission.dao.SysUserMapper">
   <resultMap id="BaseResultMap" type="com.business.permission.pojo.SysUser">
-    <id column="sysuserid" jdbcType="BIGINT" property="sysuserid" />
+    <id column="id" jdbcType="BIGINT" property="id" />
     <result column="username" jdbcType="VARCHAR" property="username" />
-    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="roleidenty" jdbcType="BIGINT" property="roleidenty" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -65,15 +66,12 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    sysuserid, username, password
+    id, username, PASSWORD, roleidenty
   </sql>
 
-    <!--**************后加*******************-->
-    <!--通过用户名查记录-->
-    <select id="findByusername" parameterType="com.business.permission.pojo.SysUser" resultType="java.lang.String">
-       select * from sysuser where username = #{username}
+    <select id="findByusername" parameterType="java.lang.String" resultType="com.business.permission.pojo.SysUser">
+        select * from sysuser where username = #{username}
     </select>
-    <!--*********************************-->
 
   <select id="selectByExample" parameterType="com.business.permission.pojo.SysUserExample" resultMap="BaseResultMap">
     select
@@ -93,11 +91,11 @@
     select 
     <include refid="Base_Column_List" />
     from sysuser
-    where sysuserid = #{sysuserid,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from sysuser
-    where sysuserid = #{sysuserid,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
   </delete>
   <delete id="deleteByExample" parameterType="com.business.permission.pojo.SysUserExample">
     delete from sysuser
@@ -106,40 +104,45 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.business.permission.pojo.SysUser">
-    insert into sysuser (sysuserid, username, password
-      )
-    values (#{sysuserid,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
-      )
+    insert into sysuser (id, username, PASSWORD, 
+      roleidenty)
+    values (#{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{roleidenty,jdbcType=BIGINT})
   </insert>
   <insert id="insertSelective" parameterType="com.business.permission.pojo.SysUser">
-
       <!--**********后加**************-->
-      <selectKey keyProperty="sysuserid">
+      <selectKey keyProperty="id">
           select last_insert_id()
       </selectKey>
       <!--*****************************-->
 
     insert into sysuser
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="sysuserid != null">
-        sysuserid,
+      <if test="id != null">
+        id,
       </if>
       <if test="username != null">
         username,
       </if>
       <if test="password != null">
-        password,
+        PASSWORD,
+      </if>
+      <if test="roleidenty != null">
+        roleidenty,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="sysuserid != null">
-        #{sysuserid,jdbcType=BIGINT},
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
       </if>
       <if test="username != null">
         #{username,jdbcType=VARCHAR},
       </if>
       <if test="password != null">
         #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="roleidenty != null">
+        #{roleidenty,jdbcType=BIGINT},
       </if>
     </trim>
   </insert>
@@ -152,14 +155,17 @@
   <update id="updateByExampleSelective" parameterType="map">
     update sysuser
     <set>
-      <if test="record.sysuserid != null">
-        sysuserid = #{record.sysuserid,jdbcType=BIGINT},
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=BIGINT},
       </if>
       <if test="record.username != null">
         username = #{record.username,jdbcType=VARCHAR},
       </if>
       <if test="record.password != null">
-        password = #{record.password,jdbcType=VARCHAR},
+        PASSWORD = #{record.password,jdbcType=VARCHAR},
+      </if>
+      <if test="record.roleidenty != null">
+        roleidenty = #{record.roleidenty,jdbcType=BIGINT},
       </if>
     </set>
     <if test="_parameter != null">
@@ -168,9 +174,10 @@
   </update>
   <update id="updateByExample" parameterType="map">
     update sysuser
-    set sysuserid = #{record.sysuserid,jdbcType=BIGINT},
+    set id = #{record.id,jdbcType=BIGINT},
       username = #{record.username,jdbcType=VARCHAR},
-      password = #{record.password,jdbcType=VARCHAR}
+      PASSWORD = #{record.password,jdbcType=VARCHAR},
+      roleidenty = #{record.roleidenty,jdbcType=BIGINT}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -182,15 +189,19 @@
         username = #{username,jdbcType=VARCHAR},
       </if>
       <if test="password != null">
-        password = #{password,jdbcType=VARCHAR},
+        PASSWORD = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="roleidenty != null">
+        roleidenty = #{roleidenty,jdbcType=BIGINT},
       </if>
     </set>
-    where sysuserid = #{sysuserid,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.business.permission.pojo.SysUser">
     update sysuser
     set username = #{username,jdbcType=VARCHAR},
-      password = #{password,jdbcType=VARCHAR}
-    where sysuserid = #{sysuserid,jdbcType=BIGINT}
+      PASSWORD = #{password,jdbcType=VARCHAR},
+      roleidenty = #{roleidenty,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

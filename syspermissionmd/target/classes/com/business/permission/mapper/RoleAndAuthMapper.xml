@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.business.permission.dao.RoleAndAuthMapper">
-  <resultMap id="BaseResultMap" type="com.business.permission.pojo.RoleAndAuthKey">
-    <id column="roleid" jdbcType="BIGINT" property="roleid" />
-    <id column="authid" jdbcType="BIGINT" property="authid" />
+  <resultMap id="BaseResultMap" type="com.business.permission.pojo.RoleAndAuth">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="roleidenty" jdbcType="BIGINT" property="roleidenty" />
+    <result column="authidenty" jdbcType="BIGINT" property="authidenty" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -64,14 +65,11 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    roleid, authid
+    id, roleidenty, authidenty
   </sql>
-
-    <!--*****************后加*****************-->
-    <select id="selectAuid" parameterType="java.lang.long" resultType="java.lang.Long">
-        select authid from roleandauth where roleid = #{roleid}
+    <select id="selectAuid" parameterType="java.lang.Long" resultType="java.lang.Long">
+        select authidenty from roleandauth where roleidenty = #{roleidenty}
     </select>
-    <!--**********************************-->
 
   <select id="selectByExample" parameterType="com.business.permission.pojo.RoleAndAuthExample" resultMap="BaseResultMap">
     select
@@ -87,10 +85,15 @@
       order by ${orderByClause}
     </if>
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="com.business.permission.pojo.RoleAndAuthKey">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from roleandauth
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from roleandauth
-    where roleid = #{roleid,jdbcType=BIGINT}
-      and authid = #{authid,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
   </delete>
   <delete id="deleteByExample" parameterType="com.business.permission.pojo.RoleAndAuthExample">
     delete from roleandauth
@@ -98,26 +101,34 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.business.permission.pojo.RoleAndAuthKey">
-    insert into roleandauth (roleid, authid)
-    values (#{roleid,jdbcType=BIGINT}, #{authid,jdbcType=BIGINT})
+  <insert id="insert" parameterType="com.business.permission.pojo.RoleAndAuth">
+    insert into roleandauth (id, roleidenty, authidenty
+      )
+    values (#{id,jdbcType=BIGINT}, #{roleidenty,jdbcType=BIGINT}, #{authidenty,jdbcType=BIGINT}
+      )
   </insert>
-  <insert id="insertSelective" parameterType="com.business.permission.pojo.RoleAndAuthKey">
+  <insert id="insertSelective" parameterType="com.business.permission.pojo.RoleAndAuth">
     insert into roleandauth
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="roleid != null">
-        roleid,
+      <if test="id != null">
+        id,
       </if>
-      <if test="authid != null">
-        authid,
+      <if test="roleidenty != null">
+        roleidenty,
+      </if>
+      <if test="authidenty != null">
+        authidenty,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="roleid != null">
-        #{roleid,jdbcType=BIGINT},
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
       </if>
-      <if test="authid != null">
-        #{authid,jdbcType=BIGINT},
+      <if test="roleidenty != null">
+        #{roleidenty,jdbcType=BIGINT},
+      </if>
+      <if test="authidenty != null">
+        #{authidenty,jdbcType=BIGINT},
       </if>
     </trim>
   </insert>
@@ -130,11 +141,14 @@
   <update id="updateByExampleSelective" parameterType="map">
     update roleandauth
     <set>
-      <if test="record.roleid != null">
-        roleid = #{record.roleid,jdbcType=BIGINT},
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=BIGINT},
       </if>
-      <if test="record.authid != null">
-        authid = #{record.authid,jdbcType=BIGINT},
+      <if test="record.roleidenty != null">
+        roleidenty = #{record.roleidenty,jdbcType=BIGINT},
+      </if>
+      <if test="record.authidenty != null">
+        authidenty = #{record.authidenty,jdbcType=BIGINT},
       </if>
     </set>
     <if test="_parameter != null">
@@ -143,10 +157,29 @@
   </update>
   <update id="updateByExample" parameterType="map">
     update roleandauth
-    set roleid = #{record.roleid,jdbcType=BIGINT},
-      authid = #{record.authid,jdbcType=BIGINT}
+    set id = #{record.id,jdbcType=BIGINT},
+      roleidenty = #{record.roleidenty,jdbcType=BIGINT},
+      authidenty = #{record.authidenty,jdbcType=BIGINT}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.business.permission.pojo.RoleAndAuth">
+    update roleandauth
+    <set>
+      <if test="roleidenty != null">
+        roleidenty = #{roleidenty,jdbcType=BIGINT},
+      </if>
+      <if test="authidenty != null">
+        authidenty = #{authidenty,jdbcType=BIGINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.business.permission.pojo.RoleAndAuth">
+    update roleandauth
+    set roleidenty = #{roleidenty,jdbcType=BIGINT},
+      authidenty = #{authidenty,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

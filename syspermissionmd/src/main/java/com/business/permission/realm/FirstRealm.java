@@ -2,7 +2,6 @@ package com.business.permission.realm;
 
 import com.business.permission.dao.*;
 import com.business.permission.pojo.SysUser;
-import org.apache.catalina.mapper.Mapper;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -10,7 +9,6 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -30,10 +28,6 @@ public class FirstRealm extends AuthorizingRealm {
     @Resource
     private AuthorityInfoMapper authorityInfoMapper;
 
-    //依赖用户角色表dao层接口（持久层）
-    @Resource
-    private SysAndRoleMapper sysAndRoleMapper;
-
     //依赖角色权限表dao层接口（持久层）
     @Resource
     private RoleAndAuthMapper roleAndAuthMapper;
@@ -46,12 +40,11 @@ public class FirstRealm extends AuthorizingRealm {
         //获取当前用户
         SysUser sysUser = (SysUser) session.getAttribute("user");
         //根据获取该用户的角色id
-        long sysuserid = sysUser.getSysuserid();
-        long roleid = sysAndRoleMapper.selectRoleId(sysuserid);
+        long roleidenty = sysUser.getRoleidenty();
         //调用持久层获取角色类型
-        String roletype = roleInfoMapper.selectTypeById(roleid);
-        //通过roleid去角色权限表查权限id(可能有多个)
-        List<Long> lis = roleAndAuthMapper.selectAuid(roleid);
+        String roletype = roleInfoMapper.selectTypeById(roleidenty);
+        //通过roleidenty去角色权限表查权限id(可能有多个)
+        List<Long> lis = roleAndAuthMapper.selectAuid(roleidenty);
         //权限表
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
         //设置角色

@@ -8,10 +8,13 @@ import com.business.permission.service.SysUserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 @Service
 public class SysUserServiceImpl implements SysUserService {
 
     //服务层依赖持久层
+    @Resource
     private SysUserMapper sysUserMapper;
 
     //注册用户
@@ -23,7 +26,7 @@ public class SysUserServiceImpl implements SysUserService {
         //调用持久层
         sysUserMapper.insertSelective(record);
         //插入后立即得到主键（得配置，参考我的文档）
-        long sysuserid = record.getSysuserid();
+        long sysuserid = record.getId();
 
         return sysuserid;
     }

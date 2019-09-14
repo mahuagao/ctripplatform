@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.business.permission.dao.AuthorityInfoMapper">
   <resultMap id="BaseResultMap" type="com.business.permission.pojo.AuthorityInfo">
-    <id column="authid" jdbcType="BIGINT" property="authid" />
+    <id column="authidenty" jdbcType="BIGINT" property="authidenty" />
     <result column="authtype" jdbcType="VARCHAR" property="authtype" />
   </resultMap>
   <sql id="Example_Where_Clause">
@@ -64,15 +64,11 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    authid, authtype
+    authidenty, authtype
   </sql>
-
-    <!--************后加***************-->
-    <!--通过权限id去权限表查权限类型-->
-    <select id="selectAuthType" parameterType="java.lang.long" resultType="java.lang.String">
-        select authtype from authorityinfo where authid = #{authid}
+    <select id="selectAuthType" parameterType="java.lang.Long" resultType="java.lang.String">
+        select authtype from authorityinfo where authidenty = #{authidenty}
     </select>
-    <!--******************************-->
 
   <select id="selectByExample" parameterType="com.business.permission.pojo.AuthorityInfoExample" resultMap="BaseResultMap">
     select
@@ -92,11 +88,11 @@
     select 
     <include refid="Base_Column_List" />
     from authorityinfo
-    where authid = #{authid,jdbcType=BIGINT}
+    where authidenty = #{authidenty,jdbcType=BIGINT}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from authorityinfo
-    where authid = #{authid,jdbcType=BIGINT}
+    where authidenty = #{authidenty,jdbcType=BIGINT}
   </delete>
   <delete id="deleteByExample" parameterType="com.business.permission.pojo.AuthorityInfoExample">
     delete from authorityinfo
@@ -105,22 +101,22 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.business.permission.pojo.AuthorityInfo">
-    insert into authorityinfo (authid, authtype)
-    values (#{authid,jdbcType=BIGINT}, #{authtype,jdbcType=VARCHAR})
+    insert into authorityinfo (authidenty, authtype)
+    values (#{authidenty,jdbcType=BIGINT}, #{authtype,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.business.permission.pojo.AuthorityInfo">
     insert into authorityinfo
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="authid != null">
-        authid,
+      <if test="authidenty != null">
+        authidenty,
       </if>
       <if test="authtype != null">
         authtype,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="authid != null">
-        #{authid,jdbcType=BIGINT},
+      <if test="authidenty != null">
+        #{authidenty,jdbcType=BIGINT},
       </if>
       <if test="authtype != null">
         #{authtype,jdbcType=VARCHAR},
@@ -136,8 +132,8 @@
   <update id="updateByExampleSelective" parameterType="map">
     update authorityinfo
     <set>
-      <if test="record.authid != null">
-        authid = #{record.authid,jdbcType=BIGINT},
+      <if test="record.authidenty != null">
+        authidenty = #{record.authidenty,jdbcType=BIGINT},
       </if>
       <if test="record.authtype != null">
         authtype = #{record.authtype,jdbcType=VARCHAR},
@@ -149,7 +145,7 @@
   </update>
   <update id="updateByExample" parameterType="map">
     update authorityinfo
-    set authid = #{record.authid,jdbcType=BIGINT},
+    set authidenty = #{record.authidenty,jdbcType=BIGINT},
       authtype = #{record.authtype,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -162,11 +158,11 @@
         authtype = #{authtype,jdbcType=VARCHAR},
       </if>
     </set>
-    where authid = #{authid,jdbcType=BIGINT}
+    where authidenty = #{authidenty,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.business.permission.pojo.AuthorityInfo">
     update authorityinfo
     set authtype = #{authtype,jdbcType=VARCHAR}
-    where authid = #{authid,jdbcType=BIGINT}
+    where authidenty = #{authidenty,jdbcType=BIGINT}
   </update>
 </mapper>

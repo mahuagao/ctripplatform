@@ -4,7 +4,112 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc4f861-9e73-48d0-8c84-6f62c885b01a" name="Default" comment="" />
+    <list default="true" id="6fc4f861-9e73-48d0-8c84-6f62c885b01a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/syspermissionmd/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airticketmd/airticketmd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctripplatform.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelmd/hotelmd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/planningmd/planningmd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchasemd/purchasemd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/CommercialInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/CommercialInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/ConsumerInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/ConsumerInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registermd/registerController/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/registermd/registerController/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/AuthorityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/RoleAndAuthMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/RoleInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/SysAndRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dto/RoleAndAuthKeyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dto/RoleAndAuthKeyDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dto/SysAndRoleKeyDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/AuthorityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/RoleAndAuthMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/RoleInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/SysAndRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/AuthorityInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/AuthorityInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleAndAuthExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleAndAuthKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/SysAndRoleExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/SysAndRoleKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/SysUserExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/realm/FirstRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/realm/FirstRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/service/SysAndRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleAndAuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleAndAuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/SysAndRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/syspermissionmd/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/controller/SysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dao/AuthorityInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dao/RoleAndAuthMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dao/RoleInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dao/SysAndRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dao/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dto/RoleAndAuthKeyDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dto/SysAndRoleKeyDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/dto/SysUserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/mapper/AuthorityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/mapper/RoleAndAuthMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/mapper/RoleInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/mapper/SysAndRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/mapper/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/AuthorityInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/AuthorityInfoExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/AuthorityInfoExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/AuthorityInfoExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/AuthorityInfoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleAndAuthExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleAndAuthExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleAndAuthExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleAndAuthExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleAndAuthKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleInfoExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleInfoExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleInfoExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/RoleInfoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysAndRoleExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysAndRoleExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysAndRoleExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysAndRoleExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysAndRoleKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/pojo/SysUserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/realm/FirstRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/service/AuthorityInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/service/RoleAndAuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/service/RoleInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/service/SysAndRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/service/SysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/serviceimpl/AuthorityInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/serviceimpl/RoleAndAuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/serviceimpl/RoleInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/serviceimpl/SysAndRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/serviceimpl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/shiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/com/business/permission/shiroStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syspermissionmd/target/syspermissionmd-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walletmd/walletmd.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/commons/target/" />
@@ -73,7 +178,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="shiroStarter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroStarter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,30 +200,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>last_insert_id</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/SysAndRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/SysAndRoleMapper.java" />
-        <option value="$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/SysAndRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/AuthorityInfoService.java" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/AuthorityInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/AuthorityInfoMapper.java" />
-        <option value="$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/AuthorityInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/RoleAndAuthMapper.java" />
-        <option value="$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleAndAuthMapper.xml" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/RoleAndAuthService.java" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/RoleAndAuthServiceImpl.java" />
-        <option value="$PROJECT_DIR$/orderinmd/orderinserviceimpl/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/productmd/productcontroller/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/orderinmd/orderincontroller/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProTypeDTO.java" />
-        <option value="$PROJECT_DIR$/productmd/productcontroller/pom.xml" />
-        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProBaseDTO.java" />
-        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProductDTO.java" />
-        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProSpecialDTO.java" />
-        <option value="$PROJECT_DIR$/productmd/productdto/src/main/java/com/business/product/dto/ProSpecialDTO1.java" />
         <option value="$PROJECT_DIR$/productmd/productservice/src/main/java/com/business/product/service/ProTypeService.java" />
         <option value="$PROJECT_DIR$/productmd/productserviceimpl/src/main/java/com/business/product/service/impl/ProTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/productmd/productdao/src/main/java/com/business/product/dao/ProTypeMapper.java" />
@@ -139,6 +241,27 @@
         <option value="$PROJECT_DIR$/strategymd/pom.xml" />
         <option value="$PROJECT_DIR$/weboplogmd/weblogserviceimpl/src/main/java/com/business/weblog/service/impl/WebLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/productmd/productcontroller/src/main/java/com/business/product/controller/ProManagerController.java" />
+        <option value="$PROJECT_DIR$/registermd/registerController/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/pom.xml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroStarter.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroConfig.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/RoleInfoMapper.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/RoleAndAuthMapper.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/RoleAndAuthMapper.xml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/realm/FirstRealm.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/AuthorityInfoMapper.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/AuthorityInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/RoleInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleAndAuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dto/RoleAndAuthKeyDTO.java" />
       </list>
     </option>
   </component>
@@ -157,23 +280,49 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="syspermissionmd" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="syspermissionmd" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="syspermissionmd" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="syspermissionmd" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-3" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,13 +330,45 @@
               <item name="ctripplatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="ctripplatform" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ctripplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctripplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="syspermissionmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctripplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctripplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="syspermissionmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctripplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctripplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="syspermissionmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctripplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctripplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="syspermissionmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctripplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctripplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="syspermissionmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +407,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LogCtrApplication (1)">
+  <component name="RunManager" selected="Application.shiroStarter">
     <configuration name="LogCtrApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.business.weblog.LogCtrApplication" />
       <module name="weblogaspect" />
@@ -302,8 +483,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LogCtrApplication (1)" />
         <item itemvalue="Application.shiroStarter" />
+        <item itemvalue="Application.LogCtrApplication (1)" />
         <item itemvalue="Application.LogCtrApplication" />
       </list>
     </recent_temporary>
@@ -345,14 +526,17 @@
       <workItem from="1539589230217" duration="2407000" />
       <workItem from="1539697791336" duration="775000" />
       <workItem from="1540902128553" duration="918000" />
+      <workItem from="1568427324976" duration="2639000" />
+      <workItem from="1568438329100" duration="15409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233979000" />
+    <option name="totallyTimeSpent" value="252027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
@@ -366,15 +550,16 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32993197" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328152" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3270869" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.28366113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.2927383" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" sideWeight="0.5017007" side_tool="true" weight="0.27912253" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
@@ -385,7 +570,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Module Dependencies" order="10" weight="0.32980332" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32993197" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
@@ -393,9 +577,10 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3270869" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3282313" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -403,7 +588,6 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32993197" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -412,10 +596,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Module Dependencies" order="10" weight="0.32980332" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.7755102" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Maven Projects" order="11" weight="0.3290469" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.28366113" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.2927383" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="6" sideWeight="0.5017007" side_tool="true" weight="0.27912253" />
@@ -423,9 +608,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,343 +624,367 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserpojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/java/com/business/sysuser/controller/AuthorityManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/AuthorityInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/RoleAndAuthMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/RoleInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/SysAndRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/AuthorityInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleAndAuthMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/SysAndRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/AuthorityInfoService.java">
+    <entry file="file://$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/ConsumerInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/CommercialInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/RoleAndAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/RoleInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/SysAndRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/AuthorityInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/RoleAndAuthServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/RoleInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/SysAndRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/java/com/business/sysuser/controller/UserManagerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+        <state relative-caret-position="-1320">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/CommercialInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/registermd/registerController/src/main/java/com/business/register/controller/CommercialInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="460">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusercontroller/src/main/java/com/business/sysuser/controller/AuthorityManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/resources/Eureka-Config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/SecurityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/CommercialInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
-        </state>
+        <state relative-caret-position="-1500" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserservice/src/main/java/com/business/sysuser/service/ConsumerInfoService.java">
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/AuthorityInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
+        <state relative-caret-position="-1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserserviceimpl/src/main/java/com/business/sysuser/service/impl/ConsumerInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/RoleAndAuthMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
+        <state relative-caret-position="-1320" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdao/src/main/java/com/business/sysuser/dao/ConsumerInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/GyTypeInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/ConsumerInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
+        <state relative-caret-position="-1500" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdto/src/main/java/com/business/sysuser/dto/ConsumerInfoDTO1.java">
+    <entry file="file://$PROJECT_DIR$/sysusermd/sysusermapper/src/main/java/com/business/sysuser/mapper/SysUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="-2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/RoleInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sysusermd/sysuserdto/src/main/java/com/business/sysuser/dto/ConsumerInfoDTO.java">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/SysAndRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dto/SysAndRoleKeyDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/airticketmd/pom.xml">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/AuthorityInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="404">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelmd/pom.xml">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dao/RoleAndAuthMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="128">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/purchasemd/pom.xml">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="500">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/smsmd/pom.xml">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/controller/SysUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="580">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="27" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/walletmd/pom.xml">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dto/RoleAndAuthKeyDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="160">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategymd/pom.xml">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/dto/SysUserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/planningmd/pom.xml">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/AuthorityInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="180">
+          <caret line="69" column="75" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/weboplogmd/weblogserviceimpl/src/main/java/com/business/weblog/service/impl/WebLogServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/RoleAndAuthMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/RoleInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="110" column="18" lean-forward="true" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="115" column="18" lean-forward="true" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/AuthorityInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/AuthorityInfoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleAndAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleAndAuthExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/RoleInfoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/pojo/SysUserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/realm/FirstRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/service/AuthorityInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/service/RoleAndAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/service/SysAndRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/service/RoleInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/AuthorityInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productmd/productcontroller/src/main/java/com/business/product/controller/ProManagerController.java">
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/SysUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="294">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/serviceimpl/RoleAndAuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syspermissionmd/src/main/java/com/business/permission/shiroStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
